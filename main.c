@@ -22,5 +22,6 @@ int main(){
     pthread_t thread_id;
     pthread_create(&thread_id,NULL,fun,NULL);
     pthread_join(thread_id,NULL);
+    printf("Koniec Maina \n");
     return 0;
 }
