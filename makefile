@@ -14,8 +14,8 @@
 ##########       You can change it           ##########
 #######################################################
 CFLAGS = -c -Wall 
-LDFLAGS = -lpthread
-SOURCES = ../src/main.c 
+LDFLAGS = -pthread
+SOURCES = main.c 
 NAME = prog
 #######################################################
 ##########        END User part              ##########
